@@ -1,11 +1,8 @@
 # ============================================================
-# 1. Open Cloudflare One Client page first
+# 1. Ask to open GitHub pages for manual download
 # ============================================================
-Write-Host "Opening Cloudflare One Client page..." -ForegroundColor Yellow
-Start-Process "https://one.one.one.one"
-
 do {
-    $answer = Read-Host "`nOpen the other pages for manual download (NVIDIA App, zapret, TgWsProxy)? Press Y to continue, N to skip"
+    $answer = Read-Host "`nOpen the GitHub pages for manual download (NVIDIA App, zapret, TgWsProxy)? Press Y to continue, N to skip"
     $answer = $answer.Trim().ToUpper()
 } while ($answer -ne 'Y' -and $answer -ne 'N')
 
@@ -21,9 +18,9 @@ if ($answer -eq 'Y') {
         Start-Sleep -Seconds 1
     }
 
-    Write-Host "`nOther pages opened." -ForegroundColor Green
+    Write-Host "`nGitHub pages opened." -ForegroundColor Green
 } else {
-    Write-Host "`nOther pages skipped." -ForegroundColor DarkYellow
+    Write-Host "`nGitHub pages skipped." -ForegroundColor DarkYellow
 }
 
 # ============================================================
