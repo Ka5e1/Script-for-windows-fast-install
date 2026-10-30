@@ -49,7 +49,6 @@ $wingetApps = @(
     "Opera.OperaGX",
     "SteelSeries.GG",
     "RARLab.WinRAR",
-    "Nvidia.GeForceExperience",
     "Happ.Happ",
     "Discord.Discord",
     "Telegram.TelegramDesktop"
