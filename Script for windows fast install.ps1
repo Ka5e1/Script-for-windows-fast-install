@@ -2,7 +2,7 @@
 # 1. Open Cloudflare One Client page first
 # ============================================================
 Write-Host "Opening Cloudflare One Client page..." -ForegroundColor Yellow
-Start-Process "https://www.cloudflare.com/products/zero-trust/one-client/"
+Start-Process "https://one.one.one.one"
 
 do {
     $answer = Read-Host "`nOpen the other pages for manual download (NVIDIA App, zapret, TgWsProxy)? Press Y to continue, N to skip"
